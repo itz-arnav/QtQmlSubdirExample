@@ -7,15 +7,12 @@ Window {
     width: 640
     height: 480
     visible: true
-
-    // Theme {
-    //     id: myTheme
-    // }
+    color: Theme.myBackground
 
     Text {
         anchors.centerIn: parent
         font.pointSize: 15
         text: Theme.myMessage
-        // text: myTheme.myMessage
+        color: Theme.myTextColor
     }
 }
